@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 58px;
+    height: 100vh;
+    background-color: var(--tree-color);
+}
+.App.dark .navbar {
+    background-color: var(--text-color);
+}
+.navbar__enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+    height: 100vh;
+    align-items: center;
+    width: 58px;
+    margin-top: 50px;
+    
+    
+}
+.navbar__icon {
+    color: var(--text-color);
+    margin-top: 20px;
+    padding: 1rem;
+    font-size: 2rem;
+    transform: rotate(-45deg);
+}
+.navbar__text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    display: flex;
+    width: 58px;
+    height: 320px;
+    align-items: center;
+    justify-content: center;
+    
+    letter-spacing: 15px;
+    
+
+}
+.App.dark .navbar__icon {
+    color: var(--primary-color);
+}
+.navbar__linkedin {
+    border: 10px;
+    border-color: orange;
+}
+a {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+.App.dark a{
+    color: var(--primary-color);
+}
