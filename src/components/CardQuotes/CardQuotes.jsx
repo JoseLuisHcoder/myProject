@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import quotes from '../utils/quotes.json'
-import '../App.css'
+import quotes from '../../utils/quotes.json'
+import '../../App.css'
 
 const CardQuotes = () => {
 
@@ -21,8 +21,8 @@ const CardQuotes = () => {
 
   return (
     <div className='cq__body'>
-        <p className='cq__p'>"{randomQuote.quote}"</p>
-        <h3 className='cq__author'>{randomQuote.author}</h3>
+         <p className='cq__p'>"{randomQuote.quote}"</p>
+        <h4 className='cq__author'>{randomQuote.author}</h4>
     </div>
   )
 }

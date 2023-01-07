@@ -16,24 +16,53 @@
     font-family: 'Inter', sans-serif;
            
 }
-.App {
-    margin: 0;
+
+/*------------------grid ------------------*/
+
+.sidebar {
+    
+    grid-area: sidebar;
+    
+}
+
+.main {
+   
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+}
+.footer {
+    background-color: yellowgreen;
+    grid-area: footer;
+}
+
+.App {
     height: 100vh;
+    margin: 0;
     background-color:var(--primary-color);
     color:var(--text-color);
+    display: grid;
+    grid-template-columns: 1fr 19fr;
+    grid-template-rows: 19fr 1fr;
+    grid-template-areas:
+    "sidebar main"
+    "sidebar footer"
+    
 }
 .App.dark {
     background-color: var(--text-color);
     color: var(--primary-color);
 }
+
+
 .cq__body {
     display: flex;
     width:min(100%, 800px);
     height: 100px;
     margin: auto;
     font-style: italic;
-    margin-top: 100px;
+    
     flex-direction: column;
     align-content: center;
     
@@ -47,8 +76,8 @@
 .cq__author {
     text-align: right;
 }
-.btn__dark {
+/* .btn__dark {
     background-color: red;
     position: relative;
     z-index: 12;
-}
+} */
