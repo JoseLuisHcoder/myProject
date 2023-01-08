@@ -1,5 +1,6 @@
 import React from 'react'
 import CardQuotes from '../../components/CardQuotes/CardQuotes'
+
 import ('../../App.css')
 import './Home.css'
 
@@ -13,6 +14,7 @@ const Home = () => {
             <div className='home__box'></div>
 
         </div>
+        
     </div>
   )
 }

@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faRocket} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
-import {faHouse} from '@fortawesome/free-solid-svg-icons'
+import {faFile} from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = ({darkMode, setDarkMode}) => {
 
@@ -14,12 +14,14 @@ const Sidebar = ({darkMode, setDarkMode}) => {
   return (
     <div className='sidebar'>
         
+            <a href="#">
             <FontAwesomeIcon className='sidebar__icon' icon={faRocket} />
-            <a href=""></a>
+
+            </a>
             <h2 className='sidebar__text'>WELCOME</h2>
             <div className='sidebar__enlaces'>
-                <a href="#">
-                    <FontAwesomeIcon icon={faHouse} />
+                <a href="https://drive.google.com/file/d/1bEjdiUqSppzNpX67fgrtJqpFX_Ovq6s3/view?usp=share_link" target="_blank">
+                    <FontAwesomeIcon icon={faFile} />
                 </a>
                 <a href="https://www.linkedin.com/in/joseluishc" target="_blank">
                     <FontAwesomeIcon className='sidebar__linkedin' icon={faLinkedin} />

@@ -31,6 +31,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    
 }
 .footer {
     background-color: yellowgreen;
@@ -76,8 +77,3 @@
 .cq__author {
     text-align: right;
 }
-/* .btn__dark {
-    background-color: red;
-    position: relative;
-    z-index: 12;
-} */
