@@ -25,6 +25,9 @@
     
     text-align: justify;
 }
+.App.dark .about__p {
+    color: var(--primary-color);
+}
 .about__p p {
     margin-bottom: 20px;
     margin-right: 20px;
@@ -50,6 +53,9 @@
     font-weight: 900;
     z-index: 10;
 
+}
+.App.dark .about__title {
+    color: var(--primary-color);
 }
 .about__subtitle {
 
@@ -91,6 +97,7 @@
     font-size: 1rem;
     font-weight: 700;
     width: 200px;
+    cursor: pointer;
     color: var(--text-color);
     background-color: var(--primary-color);
     border: 1px dashed var(--text-color);
@@ -102,4 +109,16 @@
     background-color: var(--text-color);
     border: 1px dashed var(--primary-color);
     color: var(--primary-color);
+}
+.App.dark .btn {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    border: 1px dashed var(--primary-color);
+    transition: background-color 500ms, border 500ms ;
+}
+.App.dark .btn:hover {
+    transition: background-color 500ms, border 500ms ;
+    background-color: var(--primary-color);
+    border: 1px dashed var(--text-color);
+    color: var(--text-color);
 }
