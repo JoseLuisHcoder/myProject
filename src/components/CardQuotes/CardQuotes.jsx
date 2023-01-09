@@ -21,8 +21,11 @@ const CardQuotes = () => {
 
   return (
     <div className='cq__body'>
+      <div className='body__container'>
          <p className='cq__p'>"{randomQuote.quote}"</p>
         <h4 className='cq__author'>{randomQuote.author}</h4>
+
+      </div>
     </div>
   )
 }

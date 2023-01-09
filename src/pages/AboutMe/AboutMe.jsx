@@ -31,7 +31,7 @@ const AboutMe = () => {
         </div>
 
         <div className='about__btn'>
-          <button onClick={handleClick} className='btn'>Contact me!</button>
+          <button onClick={handleClick} className='btn__contact'>Contact me!</button>
 
         </div>
       </div>

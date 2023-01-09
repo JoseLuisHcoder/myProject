@@ -28,11 +28,11 @@ const Projects = () => {
                         <div className="deroul_soustitre">
                             <div className='project__btn'>
                                 <a href="https://beatiful-ecommerce-9qyxjb4et-joseluishcoder.vercel.app/" target="_blank">
-                                    <button className='btn'><p>View Demo</p></button>
+                                    <button className='btn'><p className='btn__p'>View Demo</p></button>
                                 </a>
                                 <a href="https://github.com/JoseLuisHcoder/myProject" target="_blank">
 
-                                    <button className='btn'><p>View Code</p></button>
+                                    <button className='btn'><p className='btn__p'>View Code</p></button>
                                 </a>
                             </div>
                         </div>
@@ -55,11 +55,11 @@ const Projects = () => {
                         <div className="deroul_soustitre">
                             <div className='project__btn'>
                                 <a href="https://beatiful-ecommerce-9qyxjb4et-joseluishcoder.vercel.app/" target="_blank">
-                                    <button className='btn'><p>View Demo</p></button>
+                                    <button className='btn'><p className='btn__p'>View Demo</p></button>
                                 </a>
                                 <a href="https://github.com/JoseLuisHcoder/JLH_Ecommerce" target="_blank">
 
-                                    <button className='btn'><p>View Code</p></button>
+                                    <button className='btn'><p className='btn__p'>View Code</p></button>
                                 </a>
                             </div>
                         </div>
@@ -82,11 +82,11 @@ const Projects = () => {
                         <div className="deroul_soustitre">
                             <div className='project__btn'>
                                 <a href="https://beatiful-ecommerce-9qyxjb4et-joseluishcoder.vercel.app/" target="_blank">
-                                    <button className='btn'><p>View Demo</p></button>
+                                    <button className='btn'><p className='btn__p'>View Demo</p></button>
                                 </a>
                                 <a href="https://github.com/JoseLuisHcoder/JLH_Ecommerce" target="_blank">
 
-                                    <button className='btn'><p>View Code</p></button>
+                                    <button className='btn'><p className='btn__p'>View Code</p></button>
                                 </a>
                             </div>
                         </div>
@@ -109,11 +109,11 @@ const Projects = () => {
                         <div className="deroul_soustitre">
                             <div className='project__btn'>
                                 <a href="https://beatiful-ecommerce-9qyxjb4et-joseluishcoder.vercel.app/" target="_blank">
-                                    <button className='btn'><p>View Demo</p></button>
+                                    <button className='btn'><p className='btn__p'>View Demo</p></button>
                                 </a>
                                 <a href="https://github.com/JoseLuisHcoder/myProject" target="_blank">
 
-                                    <button className='btn'><p>View Code</p></button>
+                                    <button className='btn'><p className='btn__p'>View Code</p></button>
                                 </a>
                             </div>
                         </div>
@@ -136,11 +136,11 @@ const Projects = () => {
                         <div className="deroul_soustitre">
                             <div className='project__btn'>
                                 <a href="https://beatiful-ecommerce-9qyxjb4et-joseluishcoder.vercel.app/" target="_blank">
-                                    <button className='btn'><p>View Demo</p></button>
+                                    <button className='btn'><p className='btn__p'>View Demo</p></button>
                                 </a>
                                 <a href="https://github.com/JoseLuisHcoder/myProject" target="_blank">
 
-                                    <button className='btn'><p>View Code</p></button>
+                                    <button className='btn'><p className='btn__p'>View Code</p></button>
                                 </a>
                             </div>
                         </div>
@@ -163,11 +163,11 @@ const Projects = () => {
                         <div className="deroul_soustitre">
                             <div className='project__btn'>
                                 <a href="https://beatiful-ecommerce-9qyxjb4et-joseluishcoder.vercel.app/" target="_blank">
-                                    <button className='btn'><p>View Demo</p></button>
+                                    <button className='btn'><p className='btn__p'>View Demo</p></button>
                                 </a>
                                 <a href="https://github.com/JoseLuisHcoder/JLH_Ecommerce" target="_blank">
 
-                                    <button className='btn'><p>View Code</p></button>
+                                    <button className='btn'><p className='btn__p'>View Code</p></button>
                                 </a>
                             </div>
                         </div>

@@ -125,3 +125,12 @@ a {
     border-radius: 34px;
     
   }
+
+  /* media query*/
+
+  @media(max-width: 350px){
+    .sidebar {
+      display: none;
+      
+    }
+  }
