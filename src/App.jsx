@@ -5,10 +5,11 @@ import './App.css'
 import Home from './pages/Home/Home';
 
 import AboutMe from './pages/AboutMe/AboutMe';
-import WorkExperiencie from './pages/WorkExperiencie/WorkExperiencie';
+
 import Projects from './pages/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import Sidebar from './components/Sidebar/Sidebar';
+import MySkills from './pages/MySkills/MySkills';
 
 
 
@@ -28,7 +29,7 @@ const [darkMode, setDarkMode] = useState(false)
       <main className='main'>
           <Home />
           <AboutMe />
-          <WorkExperiencie />
+          <MySkills />
           <Projects />
           
         </main>      
