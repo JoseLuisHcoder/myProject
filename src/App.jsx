@@ -1,17 +1,12 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
+import './components/Sidebar/Sidebar.css'
 import './App.css'
 
 
-import Home from './pages/Home/Home';
-
-import AboutMe from './pages/AboutMe/AboutMe';
-
-import Projects from './pages/Projects/Projects';
-
 import Sidebar from './components/Sidebar/Sidebar';
-import MySkills from './pages/MySkills/MySkills';
 import MyFooter from './components/MyFooter/MyFooter';
+import Main from './components/Main/Main';
 
 
 
@@ -27,14 +22,8 @@ const [darkMode, setDarkMode] = useState(false)
       darkMode={darkMode}
       setDarkMode={setDarkMode}
       />
-    
-      <main className='main'>
-          <Home />
-          <AboutMe />
-          <MySkills />
-          <Projects />
-          
-        </main>      
+      <Main />
+       
       <MyFooter />
     </div>
   )

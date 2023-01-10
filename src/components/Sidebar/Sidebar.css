@@ -128,9 +128,13 @@ a {
 
   /* media query*/
 
-  @media(max-width: 350px){
-    .sidebar {
-      display: none;
-      
-    }
+@media (max-width:480px) {
+  .sidebar {
+    display: none;
   }
+}
+@media (max-width:768px) {
+  .sidebar {
+    display: none;
+  }
+}

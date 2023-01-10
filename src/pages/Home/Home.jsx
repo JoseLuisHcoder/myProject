@@ -10,7 +10,7 @@ const Home = () => {
       <CardQuotes />
         <div className='home__body'>
             <h1 className='home__title'>JOSE LUIS HUANCA</h1>
-            <h3 className='home__subtitle'>Development Full Stack</h3>
+            <h3 className='home__subtitle'> Front-end Developer</h3>
             <div className='home__box'></div>
 
         </div>

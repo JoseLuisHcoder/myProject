@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import quotes from '../../utils/quotes.json'
 import '../../App.css'
+import './CardQuotes.css'
 
 const CardQuotes = () => {
 
@@ -17,11 +18,14 @@ const CardQuotes = () => {
     const interval = setInterval(getRandomQuoteAll, 5000)
     return () => clearInterval(interval)
 
+    
+
+
   }, [])
 
   return (
     <div className='cq__body'>
-      <div className='body__container'>
+      <div className='cq__container'>
          <p className='cq__p'>"{randomQuote.quote}"</p>
         <h4 className='cq__author'>{randomQuote.author}</h4>
 

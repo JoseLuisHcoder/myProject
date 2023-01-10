@@ -9,7 +9,7 @@ const AboutMe = () => {
   }
   return (
     <div className='about'>
-
+      <div className='about__contain'>
       <div className='about__body'>
         <div className='about__body__content'>
           <h1 className='about__title'>ABOUT ME</h1>
@@ -107,6 +107,8 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
+      </div>
+
       </div>
     </div>
   )

@@ -1,0 +1,45 @@
+
+
+
+.cq__body {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    background-color: gold;
+    width:100vw;
+    
+    height: 20vh;
+   
+    
+    font-style: italic;
+    
+        
+    color:var(--text-color)
+}
+
+.cq__container {
+    width: min(100%, 800px);
+    margin: 0 10px;
+    background-color: orangered;
+    padding-left: 70px;
+     
+}
+.cq__author {
+    text-align: right;
+}
+.App.dark .cq__body {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}
+
+@media (max-width:480px) {
+    
+
+}
+@media (max-width:768px) {
+  
+    .cq__container {
+        padding-left: 20px;
+    }
+  
+}

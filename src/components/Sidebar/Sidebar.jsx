@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import './Sidebar.css'
+import '../../App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faRocket} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
