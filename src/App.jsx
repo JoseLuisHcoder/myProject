@@ -11,6 +11,7 @@ import Projects from './pages/Projects/Projects';
 
 import Sidebar from './components/Sidebar/Sidebar';
 import MySkills from './pages/MySkills/MySkills';
+import MyFooter from './components/MyFooter/MyFooter';
 
 
 
@@ -34,7 +35,7 @@ const [darkMode, setDarkMode] = useState(false)
           <Projects />
           
         </main>      
-    
+      <MyFooter />
     </div>
   )
 }
