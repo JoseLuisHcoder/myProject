@@ -8,7 +8,7 @@ import Home from './pages/Home/Home';
 import AboutMe from './pages/AboutMe/AboutMe';
 
 import Projects from './pages/Projects/Projects';
-import Footer from './components/Footer/Footer';
+
 import Sidebar from './components/Sidebar/Sidebar';
 import MySkills from './pages/MySkills/MySkills';
 
@@ -34,7 +34,7 @@ const [darkMode, setDarkMode] = useState(false)
           <Projects />
           
         </main>      
-    <Footer />
+    
     </div>
   )
 }
