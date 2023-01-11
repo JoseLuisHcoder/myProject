@@ -1,7 +1,7 @@
 .about {
         
     background-color:var(--primary-color);
-    background-color:blueviolet;
+    
     color: var(--text-color);
      
     height: 100vh;
@@ -14,15 +14,18 @@
 }
 .about__contain {
 
-  background-color: #ffd147;
+  background-color:var(--primary-color);
   display: grid;
   grid-template-columns:5fr 2fr ;
   margin: 0 10px;
   margin-top: 40px;
   padding-left: 150px;
 }
+.App.dark .about__contain {
+  background-color: var(--text-color);
+}
 .about__body {
-  background-color: green;  
+  
   position: relative;
   width:min(100%, 1000px);
   padding-right: 5px;

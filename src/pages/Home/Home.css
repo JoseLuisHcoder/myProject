@@ -5,8 +5,11 @@
     gap: 4em;
     justify-content: center;
     
-    background-color: gray;
+    background-color:var(--primary-color);
     
+    }
+    .App.dark .home {
+        background-color: var(--text-color);
     }
 
 .home__body {
@@ -15,7 +18,7 @@
     top: -60px;
     position: relative;
     width: min(100%, 900px);
-    background-color: green;
+    
     margin: 0 auto;
     padding-left: 70px;
 }

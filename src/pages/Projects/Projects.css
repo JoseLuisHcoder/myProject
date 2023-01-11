@@ -4,6 +4,7 @@
     flex-direction: column;
         
     width: 100%;
+    margin-top: 150px;
     
     justify-content: center;
     background-color: var(--primary-color);
@@ -32,6 +33,7 @@
   padding-right: 50px;
   justify-content: center;
   gap: 1.5rem;
+  margin-top: 70px;
   
 }
 .project__body__img {
@@ -233,13 +235,11 @@ background-color: var(--text-color);
 
 @media (max-width:1000px) {
   .project__hero {
-    background-color: green;
+    
     margin: 0 auto;
     padding-left: 60px;
   }
-  .project__body{
-    margin-top: 30px;
-  }
+  
   .project__box {
     left: 90px;
   }

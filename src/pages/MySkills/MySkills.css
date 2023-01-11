@@ -2,17 +2,18 @@
     
     display: flex;
     flex-direction: column;
-    background-color: mediumslateblue;
+    background-color: var(--primary-color);
     width: 100%;
     height: 100vh;
     padding-left: 60px;
     
-    
-    
-            
+        
+}
+.App.dark .skill {
+    background-color: var(--text-color);
 }
 .skill__contain {
-    background-color: orange;
+    
     width: min(100%, 1000px);
     display: flex;
     flex-direction: column;
@@ -69,7 +70,7 @@
 .skill__swiper {
     width: 100%;
     height: 100px;
-    background-color: grey;
+    
     
 }
 .swiper {
