@@ -589,6 +589,12 @@
     }
     
   }
+  @media (max-width:600px) {
+    .about__box {
+      width: 280px;
+      height: 100px;
+    }
+  }
   @media (max-width:480px) {
     .about__contain{
       display: grid;

@@ -2,16 +2,14 @@
     
     display: flex;
     flex-direction: column;
-    height: 1000px;
-    
+        
     width: 100%;
+    
     justify-content: center;
     background-color: var(--primary-color);
-    position: relative;
-    padding: 0;
+     
     
     
-    text-align: center;
 }
 .App.dark .project {
     background-color: var(--text-color);
@@ -19,17 +17,36 @@
 }
 .project__hero {
     
-    position: relative;
-    width:700px;
-    
-    margin-left: 150px;
-    margin-bottom: 70px;
-    
+  position: relative;
+  width:min(100%, 800px);
+  
+  margin-left: 150px;
+  
     
 }
 
+.project__body {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
+  gap: 1.5rem;
+  
+}
+.project__body__img {
+width: min(100%, 320px);
+height: 250px;
+background-size: cover;
+border: 1px dashed var(--secondary-color);
+border-radius: 7px;
+background-color: var(--text-color);
+
+}
+
+
 .project__title {
-    position: relative;
+  position: relative;
     font-size: 5rem;
     font-weight: 900;
     z-index: 10;
@@ -64,27 +81,6 @@
     background-color: var(--text-color);
     color: var(--primary-color);
 }
-
-.project__body {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 50px;
-    padding-right: 50px;
-    justify-content: center;
-    gap: 1.5rem;
-    
-}
-.project__body__img {
- width: min(100%, 320px);
- height: 250px;
- background-size: cover;
- border: 1px dashed var(--secondary-color);
- border-radius: 7px;
- background-color: var(--text-color);
-
-}
-
-
 
 
 
@@ -233,4 +229,45 @@
 }
 .body__img2 {
     background-image: url('/public/images/ecommerce.jpg');
+}
+
+@media (max-width:1000px) {
+  .project__hero {
+    background-color: green;
+    margin: 0 auto;
+    padding-left: 60px;
+  }
+  .project__body{
+    margin-top: 30px;
+  }
+  .project__box {
+    left: 90px;
+  }
+}
+
+@media (max-width:768px) {
+  .project__box {
+    width: 430px;
+    height: 100px;
+    left: 90px;
+  }
+
+}
+@media (max-width:480px) {
+ 
+  .project__title {
+    font-size: 4rem;
+  }
+  .project__hero {
+    
+    padding-left: 20px;
+    
+      
+  }
+  .project__box {
+    width: 350px;
+    top: 40px;
+    height: 84px;
+    left: 40px;
+  }
 }
