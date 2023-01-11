@@ -84,7 +84,7 @@
     color:white;
     top:200px;
     bottom:0;
-    left:0px;
+    left:50px;
     right:0;
     margin:auto;
   }
@@ -159,6 +159,8 @@
   .console-container{
       top: 350px;
       left: 30px;
+      font-size: 2rem;
+
   }
       
   }
