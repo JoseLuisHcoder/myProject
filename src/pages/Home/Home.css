@@ -95,6 +95,9 @@
     left:10px;
   }
 
+  .App.dark .console__guion {
+    color: var(--primary-color);
+  }
 
 
 

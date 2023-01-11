@@ -124,7 +124,7 @@ background-color: var(--text-color);
     height: 60%;
     padding: 7px;
     z-index: 1000;
-    top:0;left:-80%;
+    top:0;left:-100%;
     color:var(--text-color);
     font-weight: 300;
     font-size: 13px; width: 100%;
@@ -133,6 +133,9 @@ background-color: var(--text-color);
     -ms-transition: all 0.7s;
     transition: all 0.7s;
   
+  }
+  .deroul_titre h3 {
+    
   }
   .project__body__img:hover .deroul_titre
   {
@@ -232,6 +235,20 @@ background-color: var(--text-color);
 .body__img2 {
     background-image: url('/public/images/ecommerce.jpg');
 }
+.body__img3 {
+  background-image: url('/public/images/pokedex.jpg');
+
+}
+.body__img4 {
+  background-image: url('/public/images/dzone.jpg');
+}
+.body__img5 {
+  background-image: url('/public/images/openweather.jpg');
+}
+.body__img6 {
+  background-image: url('/public/images/frases.jpg');
+}
+
 
 @media (max-width:1000px) {
   .project__hero {

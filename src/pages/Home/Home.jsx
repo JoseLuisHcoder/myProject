@@ -70,7 +70,7 @@ const Home = () => {
             <h1 className='home__title'>JOSE LUIS HUANCA</h1>
             <div className='console-container'> 
                 <span id='text'></span>
-                <div className='console-underscore' id='console'>&#95;</div>
+                <div className='console-underscore' id='console'><span className='console__guion'>&#95;</span></div>
             </div>
             <div className='home__box'></div>
 
