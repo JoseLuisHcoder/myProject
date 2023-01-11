@@ -27,7 +27,7 @@ const Projects = () => {
                         </div>
                         <div className="deroul_soustitre">
                             <div className='project__btn'>
-                                <a href="https://beatiful-ecommerce-9qyxjb4et-joseluishcoder.vercel.app/" target="_blank">
+                                <a href="http://joseluishc.pro/" target="_blank">
                                     <button className='btn'><p className='btn__p'>View Demo</p></button>
                                 </a>
                                 <a href="https://github.com/JoseLuisHcoder/myProject" target="_blank">
@@ -54,7 +54,7 @@ const Projects = () => {
                         </div>
                         <div className="deroul_soustitre">
                             <div className='project__btn'>
-                                <a href="https://beatiful-ecommerce-9qyxjb4et-joseluishcoder.vercel.app/" target="_blank">
+                                <a href="https://sprightly-dango-455d4d.netlify.app/" target="_blank">
                                     <button className='btn'><p className='btn__p'>View Demo</p></button>
                                 </a>
                                 <a href="https://github.com/JoseLuisHcoder/JLH_Ecommerce" target="_blank">
@@ -135,7 +135,7 @@ const Projects = () => {
                         </div>
                         <div className="deroul_soustitre">
                             <div className='project__btn'>
-                                <a href="https://beatiful-ecommerce-9qyxjb4et-joseluishcoder.vercel.app/" target="_blank">
+                                <a href="https://sprightly-dango-455d4d.netlify.app/" target="_blank">
                                     <button className='btn'><p className='btn__p'>View Demo</p></button>
                                 </a>
                                 <a href="https://github.com/JoseLuisHcoder/myProject" target="_blank">

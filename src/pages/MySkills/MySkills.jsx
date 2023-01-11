@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from 'swiper/react'
 
@@ -11,13 +11,15 @@ import "swiper/css/navigation";
 
 const MySkills = () => {
 
+  
+
 
   return (
     <div className='skill'>
       <div className='skill__contain'>
           <div className='skill__body'>
             <h1 className='skill__title'>MY SKILLS</h1>
-            <h3 className='skill__subtitle'>Come on</h3>
+            <h3 className='skill__subtitle'> Come on</h3>
             <div className='skill__box'></div>
 
           </div>

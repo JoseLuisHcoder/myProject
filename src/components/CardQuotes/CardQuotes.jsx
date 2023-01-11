@@ -15,7 +15,7 @@ const CardQuotes = () => {
       setRandomQuote(quotes[getIndexRandom(quotes)])
     }
 
-    const interval = setInterval(getRandomQuoteAll, 5000)
+    const interval = setInterval(getRandomQuoteAll, 4000)
     return () => clearInterval(interval)
 
     

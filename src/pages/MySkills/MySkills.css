@@ -126,6 +126,9 @@
     height: 96%;
 }
 
+
+
+
 @media (max-width:1000px) {
     .skill__swiper {
         height: 130px;
@@ -149,7 +152,7 @@
         
     }
   }
-  @media (max-width:480px) {
+  @media (max-width:500px) {
     .skill {
         margin-top: 350px;
     }
