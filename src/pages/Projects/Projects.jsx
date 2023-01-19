@@ -28,7 +28,7 @@ const Projects = () => {
                         </div>
                         <div className="deroul_soustitre">
                             <div className='project__btn'>
-                                <a href="http://joseluishc.pro/" target="_blank">
+                                <a href="https://joseluishc.pro/" target="_blank">
                                     <button className='btn'><p className='btn__p'>View Demo</p></button>
                                 </a>
                                 <a href="https://github.com/JoseLuisHcoder/myProject" target="_blank">

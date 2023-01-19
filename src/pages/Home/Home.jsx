@@ -9,7 +9,7 @@ import './Home.css'
 const Home = () => {
 
   useEffect(() => {
-    consoleText(['Front-end Developer', 'Web developer', 'Back-end Developer'], 'text',['#FF4D00','#FF4D00','#FF4D00']);
+    consoleText(['Front-end Developer', 'Developer Javascript','Web Developer', 'Back-end Developer', 'Full Stack Developer'], 'text',['#FF4D00','#FF4D00','#FF4D00']);
   }, []);
   
   const consoleText =(words, id, colors) => {

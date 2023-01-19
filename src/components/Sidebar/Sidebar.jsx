@@ -21,7 +21,7 @@ const Sidebar = ({darkMode, setDarkMode}) => {
             </a>
             <h2 className='sidebar__text'>WELCOME</h2>
             <div className='sidebar__enlaces'>
-                <a href="https://drive.google.com/file/d/1bEjdiUqSppzNpX67fgrtJqpFX_Ovq6s3/view?usp=share_link" target="_blank">
+                <a href="https://drive.google.com/file/d/10EM6DdShKYsq6wOaEN69aBRpBHMxoVCY/view?usp=sharing" target="_blank">
                     <FontAwesomeIcon icon={faFile} />
                 </a>
                 <a href="https://www.linkedin.com/in/joseluishc" target="_blank">
