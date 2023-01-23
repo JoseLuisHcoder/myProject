@@ -1,12 +1,22 @@
 import React, { useEffect } from 'react'
 import CardQuotes from '../../components/CardQuotes/CardQuotes'
 
-import ('../../App.css')
 import './Home.css'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import {faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faFile} from '@fortawesome/free-solid-svg-icons'
+import ('../../App.css')
+
 
 
   
 const Home = () => {
+  const handleClickEmailSend = () => {
+    window.open(`mailto:zonajl@gmail.com?subject=Contact&body=Hello Jose Luis`);
+  }
 
   useEffect(() => {
     consoleText(['Front-end Developer', 'Developer Javascript','Web Developer', 'Back-end Developer', 'Full Stack Developer'], 'text',['#FF4D00','#FF4D00','#FF4D00']);
@@ -75,7 +85,31 @@ const Home = () => {
             <div className='home__box'></div>
 
         </div>
+        <div className='hidden__box'> <a href=""></a></div>
+        <div className='home__contact'>
         
+                <div className='home__enlaces'>
+                      <a href="https://drive.google.com/file/d/10EM6DdShKYsq6wOaEN69aBRpBHMxoVCY/view?usp=sharing" target="_blank">
+                          
+                          <FontAwesomeIcon className='home__cv' icon={faFile} />
+                                            
+                      </a>
+                      
+                      <a href="https://www.linkedin.com/in/joseluishc" target="_blank">
+                          <FontAwesomeIcon className='home__linkedin' icon={faLinkedin} />
+                      </a>
+                      <a href="https://github.com/JoseLuisHcoder" target="_blank">
+                      <FontAwesomeIcon className='home__git' icon={faGithub} />
+                      </a>
+                     
+              </div>
+              
+            <div className='home__btn'>
+              <button onClick={handleClickEmailSend} className='btn__contact'>Contact me!</button>
+
+            </div>
+        </div>
+            
     </div>
   )
 }
