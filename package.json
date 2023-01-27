@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
-  "homepage": "https://joseluishc.pro/",  
+  "homepage": "https://joseluishc.pro/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -19,6 +18,7 @@
     "axios": "^1.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
     "swiper": "^8.4.5"
   },
   "devDependencies": {
